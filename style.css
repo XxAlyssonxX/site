@@ -1,0 +1,154 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #131E26, #30576B);
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    margin-left: 100px;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.btn{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    margin-right: 100px;
+    border-radius: 10px;
+    gap: 10px;
+    background-image: linear-gradient(to right, #36935C, #54BFE4);
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.btn img{
+    width: 17px;
+}
+
+body{
+    background-image: linear-gradient(to right, #131E26, #30576B);
+}
+
+.back{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+
+.back div{
+    width: 650px;
+}
+
+.back img{
+    width: 800px;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+p{
+    display: flex;
+    color: white;
+    text-align: justify;
+    margin: 20px 0px 20px 0px;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+
+.text p{
+    display: flex;
+    width: 600px
+}
+
+.back2{
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+    padding: 20px;
+}
+
+.back2 h2{
+    font-size: 1.7rem;
+}
+
+.back2 .div{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+.bloco h3{
+    margin-top: 20px;
+}
+
+.bloco p{
+    margin-top: 0px;
+    color: black;
+    padding: 10px;
+}
+
+.bloco img{
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.bloco div{
+    background-color: #264151;
+    width: 340px;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39;');
